@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">My ToolKit</string>
+    <string name="sendSMS">Compose Message</string>
+    <string name="action_settings">Settings</string>
+    <string name="speakingClock">Speaking Clock</string>
+    <string name="alarm">Alarm Manager</string>
+    <string name="toDo">My Todo List</string>
+    <string name="flashActivity">Flash Light</string>
+    <string name="stopClock">Stop Clock</string>
+    <color name="MediumPurple">#4E387E</color>
+    <color name="Coral">#FF7F50</color>
+    <color name="MyRed">#FF3300</color>
+    <color name="MyColor">#009999</color>
+    <color name="Brown">#d1a381</color>
+    <color name="Pink">#fdd5d5</color>
+    <color name="Gray">#c8d7e5</color>
+</resources>

@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#b2d3d2"
+    android:paddingTop="10dp" >
+
+    <EditText
+        android:id="@+id/editTextPhoneNo"
+        android:layout_marginTop="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:hint="Phone Number"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone" />
+
+    <EditText
+        android:layout_below="@+id/editTextPhoneNo"
+        android:layout_marginTop="20dp"
+        android:id="@+id/editTextSMS"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:hint="Type your Message"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@color/Brown"
+        android:textSize="20dp"
+        android:text="Send"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/btnSendSMS"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
