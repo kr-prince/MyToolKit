@@ -1,0 +1,91 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:weightSum="100"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/MediumPurple"
+    android:padding="5dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:weightSum="100"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:layout_weight="50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton1"
+            android:src="@drawable/sendicon"
+            android:background="@null"
+            android:layout_alignParentLeft="true" />
+
+        <ImageButton
+            android:layout_weight="50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton2"
+            android:src="@drawable/speakclock"
+            android:background="@null"
+            android:layout_alignParentRight="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:weightSum="100"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:layout_weight="50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton3"
+            android:layout_below="@id/imageButton1"
+            android:src="@drawable/alarmclockicon"
+            android:background="@null"
+            android:layout_alignParentLeft="true" />
+
+        <ImageButton
+            android:layout_weight="50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton4"
+            android:layout_below="@id/imageButton2"
+            android:src="@drawable/todolisticon"
+            android:background="@null"
+            android:layout_alignParentRight="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:weightSum="100"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:layout_weight="50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton5"
+            android:layout_below="@id/imageButton3"
+            android:src="@drawable/flashicon"
+            android:background="@null"
+            android:layout_alignParentLeft="true" />
+
+        <ImageButton
+            android:layout_weight="50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton6"
+            android:layout_below="@id/imageButton4"
+            android:src="@drawable/stopclock"
+            android:background="@null"
+            android:layout_alignParentRight="true" />
+    </LinearLayout>
+
+</LinearLayout>
+<!-- From: file:/C:/Users/Prince/AndroidStudioProjects/MyToolKit/app/src/main/res/layout/activity_home.xml -->
